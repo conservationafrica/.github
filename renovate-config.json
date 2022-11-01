@@ -22,7 +22,6 @@
   "rollbackPrs": true,
   "packageRules": [
     {"matchDepTypes": ["require"], "rangeStrategy": "widen"},
-    {"matchDepTypes": ["require-dev"], "rangeStrategy": "bump"},
     {
       "matchPackageNames": ["php"],
       "extends": [":automergeDisabled", ":automergePr", ":label(Awaiting Maintainer Response)"],
